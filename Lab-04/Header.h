@@ -15,6 +15,7 @@
 #include <GLUT/GLUT.h>
 #include "Texture.hpp"
 #include "SOIL2/SOIL2.h"
+#include <cmath>
 using namespace std;
 
 // MARK: GLOBAL VARIABLES
@@ -31,5 +32,11 @@ void initGL();
 void display();
 void reshape(GLsizei width, GLsizei height);
 void timer(int value);
+
+void drawCube();
+void drawPyramid();
+void drawCylinder();
+void drawConeShape();
+void drawRingShape();
 
 #endif /* Header_h */
