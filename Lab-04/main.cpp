@@ -18,7 +18,7 @@ int main(int argc, char * argv[]) {
     glutInitWindowPosition(100, 100);
     glutCreateWindow("Lab-04");
     
-//    glLoadGLTextures();
+    glLoadGLTextures();
     
     glutDisplayFunc(display);
     glutReshapeFunc(reshape);
@@ -63,7 +63,7 @@ void display() {
     drawConeShape();
     drawRingShape();
     
-//    drawGLScene();
+    drawGLScene();
     
     glutSwapBuffers();
 }
